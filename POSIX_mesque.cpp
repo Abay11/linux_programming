@@ -10,10 +10,10 @@
 
 int main()
 {
-    int		res;
-    mqd_t	mqd;
-    mq_attr	attr;
-    char	msg[1024];
+    int     res;
+    mqd_t   mqd;
+    mq_attr attr;
+    char    msg[1024];
 
     attr.mq_flags=0;       /* Flags (ignored for mq_open()) */
     attr.mq_maxmsg=10;     /* Max. # of messages on queue */
